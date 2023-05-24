@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F2EAE2;
+}
+.container{
+    width: 600px;
+    display: flex;
+    margin: 8% auto;
+    border-radius:10px;
+    overflow: hidden;
+    
+}
+img {
+    width: 300px;
+    height: 450px;
+}
+
+.descricao{
+    width: 300px;
+    height: 450px;
+    padding: 32px;
+    background-color:#ffffff ;
+}
+h3{
+    margin-bottom: 20px;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 500;
+    letter-spacing: 5px;
+    line-height: 14.63px;
+    font-size: 12px;
+    color: #6c7289;
+}
+h1{
+    margin-bottom: 24px;
+    font-family: 'Fraunces',serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+}
+p{
+    margin-bottom: 29px;
+    font-family:'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 14px;
+    color: #6c7289;
+}
+.valor{
+    display: flex;
+    gap: 19px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+span{
+    font-size: 32px;
+    line-height: 32px;
+    font-family: 'Fraunces',serif;
+    font-weight: 700;
+    color: #308168;
+
+}
+del{
+    font-size: 13px;
+    line-height: 26px;
+    font-family:'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 13px;
+    color: #6c7289;
+}
+button{
+    width: 236px;
+    height:48px;
+    border-radius: 8px;
+    background-color:#3d8168;
+    font-size: 14px;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.img-carrinho{
+    width: 14px;
+    height: 14px;
+    margin-right: 11.60px;
+}
+button:hover{
+    background-color: #1a4832;
+}
+@media(max-width:768px){
+    .container{
+        max-width: 343px;
+        height: 611px;
+        flex-direction: column;
+        overflow: visible;
+    
+    }
+    .img-container {
+        height: 343px;
+        width: 343px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    h3{
+    width: 295px;
+    }
+    .descricao{
+        padding: 24px;
+        
+    }
+    h3{
+        margin-bottom: 12px;
+    }
+    h1{
+        margin-bottom: 16px;
+        width: 295px;
+    }
+    p{
+        margin-bottom: 24px;
+    }
+    .valor{
+        margin-bottom: 20px;
+    }
+    button{
+        width: 100%;
+    }
+}
